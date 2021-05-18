@@ -67,14 +67,14 @@
  * Primary Extruder steps per mm (plugged in to E0 port on controller)
  * (How to calibrate: https://toms3d.org/2014/04/06/3d-printing-guides-calibrating-your-extruder/)
  */
-#define E0_STEPS      94.67 // Stock extruder. If you have a Tevo Titan, try 400 then calibrate.
+#define E0_STEPS      94.7 // Stock extruder. If you have a Tevo Titan, try 400 then calibrate.
 //#define CHANGE_E0_DIRECTION   // If your extruder is going backwards, enable this.
 
 /**
  * Z Axis steps per mm (Default for stock lead screw is 1600)
  * If you install a lead screw with a different pitch and/or lead, change this
  */
-#define Z_STEPS      395.7 // Stock lead screw
+#define Z_STEPS      416.5 // Stock lead screw
 
 /**
  * Z-Probe type (must be none or one of them)
